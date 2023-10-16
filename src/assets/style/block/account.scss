@@ -1,0 +1,19 @@
+.account {
+    display: flex;
+    align-items: center;
+}
+
+.account__img {
+    margin-right: 10px;
+    max-width: 80px;
+    min-height: 80px;
+    border-radius: 50%;
+    border: 2px $black solid;
+}
+
+.account__name {
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;
+    color: $black;
+}

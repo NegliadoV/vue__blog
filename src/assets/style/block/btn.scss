@@ -1,0 +1,24 @@
+//Push btn
+.push__btn {
+    cursor: pointer;
+    position: fixed;
+    right: 110px;
+    bottom: 50px;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    border: 2px $black solid;
+    background: $white;
+
+    font-weight: 700;
+    font-size: 20px;
+
+
+    &:hover {
+        background: $black;
+        color: $white;
+        transition: all 0.2s linear;
+       
+    }
+
+}

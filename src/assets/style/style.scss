@@ -1,0 +1,19 @@
+@import "./vars";
+@import "./reset.scss";
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&family=Inter:wght@400;500;600;700&family=Raleway:wght@400;600;700&display=swap');
+
+body {
+    font-family: Inter;
+}
+
+
+
+@import "./block/container.scss";
+@import "./block/header.scss";
+@import "./block/account.scss";
+@import "./block/nav.scss";
+@import "./block/checkbox.scss";
+@import "./block/common.scss";
+@import "./block/posts.scss";
+@import "./block/btn.scss";
+@import "./block/createPost.scss";
